@@ -1,0 +1,15 @@
+
+SumInts/.vs/SumInts/v16/.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.json
+*.dll
+*.exe
+*.pdb
+*.cache
+*.props
+*.targets
+SumInts/SumInts/obj/Debug/netcoreapp3.0/SumInts.csproj.FileListAbsolute.txt
+SumInts/SumInts/obj/Debug/netcoreapp3.0/SumInts.AssemblyInfo.cs
