@@ -13,3 +13,7 @@ SumInts/.vs/SumInts/v16/.suo
 *.targets
 SumInts/SumInts/obj/Debug/netcoreapp3.0/SumInts.csproj.FileListAbsolute.txt
 SumInts/SumInts/obj/Debug/netcoreapp3.0/SumInts.AssemblyInfo.cs
+MultiplicationTable/.vs/MultiplicationTable/v16/.suo
+MultiplicationTable/MultiplicationTable/obj/Debug/netcoreapp3.0/MultiplicationTable.AssemblyInfo.cs
+SumInts/.vs/SumInts/DesignTimeBuild/.dtbcache
+MultiplicationTable/MultiplicationTable/obj/Debug/netcoreapp3.0/MultiplicationTable.csproj.FileListAbsolute.txt
