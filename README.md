@@ -6,5 +6,5 @@ C# Programming Chapter 5
 - [X] 05 - ~~HomeSales~~
 - [X] 06 – DisplayMultiplication
 - [X] 08 – MultiplicationTable
-- [ ] 11 - TippingTable3
+- [X] 11 - TippingTable3
 - [ ] 15 - GuessingGame3
