@@ -14,8 +14,8 @@ namespace GuessingGame3
                 string guessHint = nguessedNumber switch
                 {
                     null => "Guess the number: ",
-                    int x when x > randomNumber => highGuesses++ > 0 ? "Try again, you guessed too high again: " : "Try again, you guessed too high: ",
-                    int x when x < randomNumber => lowGuesses++ > 0 ? "Try again, you guessed too low again: " : "Try again you guessed too low: ",
+                    int x when x > randomNumber => ((lowGuesses = 0) == 0) ? (highGuesses++ > 0 ? "Try again, you guessed too high again: " : "Try again you guessed too high: ") : "",
+                    int x when x < randomNumber => ((highGuesses = 0) == 0) ? (lowGuesses++ > 0 ? "Try again, you guessed too low again: " : "Try again you guessed too low: ") : "",
                     _ => "Guess the number: "
                 };
                 Console.Write(guessHint);
